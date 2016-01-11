@@ -1,0 +1,34 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="<%= root_path %>">GoCycling</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Парки</a></li>
+          <li><a href="#">Магазины</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="<%= new_user_session_path %>"> Вход </a>
+          </li>
+          <li>
+            <a href="<%= new_user_registration_path %>"> Регистрация </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<br />
+<br />
+<br />

@@ -1,0 +1,11 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+#picture {
+    width: 304px;
+    border: 2px solid white;
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    2px 2px 14px 0px rgba(50, 50, 50, 0.52);
+    box-shadow:         2px 2px 14px 0px rgba(50, 50, 50, 0.52);
+}
